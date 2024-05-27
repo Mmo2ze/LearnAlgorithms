@@ -1,0 +1,12 @@
+﻿services:
+  learn algorithmlearnalgorithm:
+    image: learn algorithmlearnalgorithm
+    build:
+      context: .
+      dockerfile: Learn Algorithm/Dockerfile
+
+  metwally:
+    image: metwally
+    build:
+      context: .
+      dockerfile: Metwally/Dockerfile
